@@ -1,33 +1,25 @@
 # Flight Delay Analytics with Apache Spark (RDD)
 
-Αυτή η ενότητα περιλαμβάνει την ανάλυση δεδομένων πτήσεων με στόχο την εύρεση καθυστερήσεων και στατιστικών στοιχείων, χρησιμοποιώντας το πλαίσιο **Apache Spark**.
+This section includes the analysis of flight data to identify delays and statistical patterns using the **Apache Spark** framework.
 
-## 🛠 Τεχνολογίες & Εργαλεία
-* **Apache Spark:** Χρήση του RDD API για την επεξεργασία μεγάλου όγκου δεδομένων.
-* **Python (PySpark):** Γλώσσα προγραμματισμού για την υλοποίηση των αλγορίθμων.
-* **Jupyter Notebooks:** Για την παρουσίαση και εκτέλεση του κώδικα ανά θέμα.
-* **Pandas & Matplotlib:** Για τον καθαρισμό και την οπτικοποίηση των αποτελεσμάτων.
+## 🛠 Technologies & Tools
+* **Apache Spark:** Implementation of the RDD API for large-scale data processing.
+* **Python (PySpark):** The programming language used for algorithm implementation.
+* **Jupyter Notebooks:** Used for the presentation and execution of code across different tasks.
+* **Pandas & Matplotlib:** Used for data cleaning and visualization of the results.
 
-## 📊 Περιγραφή Εργασίας
-Η εργασία χωρίζεται σε επιμέρους θέματα (Notebooks) που καλύπτουν:
-1. **Επεξεργασία Δεδομένων:** Φόρτωση και καθαρισμός του αρχείου `flights_2000.csv`.
-2. **Ανάλυση Καθυστερήσεων:** Υπολογισμός μέσου όρου καθυστερήσεων ανά αεροπορική εταιρεία και αεροδρόμιο.
-3. **Top Routes:** Εύρεση των πιο συχνών διαδρομών (routes) και ανάλυση κίνησης.
-4. **Στατιστικά Στοιχεία:** Εξαγωγή αποτελεσμάτων σε μορφή CSV (π.χ. `top_10_routes.csv`).
+## 📊 Project Description
+The project is divided into individual tasks (Notebooks) covering:
+1. **Data Processing:** Loading and cleaning the `flights_2000.csv` file.
+2. **Delay Analysis:** Calculating average delays per airline and airport.
+3. **Top Routes:** Identifying the most frequent flight routes and analyzing traffic.
+4. **Statistical Data:** Exporting results in CSV format (e.g., `top_10_routes.csv`).
 
-## 📁 Δομή Αρχείων
-* `Θέμα 1ο - 5ο.ipynb`: Τα notebooks με την υλοποίηση των ερωτημάτων.
-* `Report.pdf`: Η αναλυτική τεχνική αναφορά της εργασίας.
-* `flights_2000.csv`: Το δείγμα δεδομένων που χρησιμοποιήθηκε.
+## 📁 File Structure
+* `Task 1 - 5.ipynb`: Notebooks containing the implementation of each query.
+* `Report.pdf`: Comprehensive technical report of the project.
+* `flights_2000.csv`: The dataset sample used for analysis.
 
----
-*Αυτό το project υλοποιήθηκε στα πλαίσια του μαθήματος **Big Data** στο Τμήμα Εφαρμοσμένης Πληροφορικής (ΠΑΜΑΚ).*
-
-##Λεπτομέρειες 
-1. Στον φάκελο /src βρίσκεται το αρχικό αρχείο των δεδομένων
-2. Στον φάκελο /out βρίσκεται το παραχθέν αρχείο από το 3ο θέμα
-3. Κάθε θέμα έχει το δικό του αρχείο .ipynb notebook
-4. Σε κάθε notebook η εισαγωγή των δεδομένων γίνεται μέσω widget, στο Google Colab, οπότε για εκτέλεση είναι απαραίτητο να γίνει από εκεί.
-5. Στα θέματα 4 και 5 που αφορούν οπτικοποίηση και δημιουργία γραφημάτων χρησιμοποιήθηκε AI LLM (συγκεκριμένα το Gemini)
-6. Τα γραφήματα έχουν όλα τοποθετηθεί στο τελικό παραδοθέν αρχείο και φαίνονται και στους τελικούς κώδικες.
-
+## 🔍 Implementation Details 
+1. The original raw data file is located in the `/src` folder.
+2. The output file generated from Task
