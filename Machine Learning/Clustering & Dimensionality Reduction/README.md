@@ -19,7 +19,7 @@ The project explores the following techniques:
 * `DR_PCA.ipynb`: Implementation and visualization using the PCA method.
 * `DR_t_SNE.ipynb`: Dimensionality reduction analysis using the t-SNE algorithm.
 * `Deep_DR_SAE.ipynb`: Feature extraction and reduction using Stacked Autoencoders.
-* `MM_ΑΝΑΦΟΡΑ_CLUSTERING.pdf`: The complete technical report and study findings (in Greek).
+* `Report.pdf`: The complete technical report and study findings (in Greek).
 
 ---
 *This project was implemented as part of the **Machine Learning** course at the Department of Applied Informatics, University of Macedonia.*
