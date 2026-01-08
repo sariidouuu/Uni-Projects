@@ -18,7 +18,7 @@ The project focuses on building and comparing predictive models for classificati
 ## 📁 File Structure
 * `Classification_Analysis.ipynb`: The main notebook containing the implementation and results.
 * `dataset.csv`: The data used for training and testing the models.
-* `Classification_Report.pdf`: Detailed documentation and analysis of the findings (in Greek).
+* `Report.pdf`: Detailed documentation and analysis of the findings (in Greek).
 
 ---
 *This project was implemented as part of the **Machine Learning** course at the Department of Applied Informatics, University of Macedonia.*
