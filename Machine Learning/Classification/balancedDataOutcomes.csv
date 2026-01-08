@@ -1,0 +1,65 @@
+Classifier Name,Training or test set,Balanced or unbalanced train set,Number of training samples,Number of non-healthy companies in training sample,TP,TN,FP,FN,ROC-AUC,Execution Time (sec)
+LDA,Training set,Balanced,744,186,523,79,107,35,0.8669,0.0069
+LDA,Test set,Balanced,744,186,2399,31,31,218,0.8303,0.0069
+Logistic Regression,Training set,Balanced,744,186,526,69,117,32,0.8654,0.0109
+Logistic Regression,Test set,Balanced,744,186,2431,30,32,186,0.8349,0.0109
+Decision Tree,Training set,Balanced,744,186,558,186,0,0,1,0.0141
+Decision Tree,Test set,Balanced,744,186,2149,35,27,468,0.6928,0.0141
+Random Forest,Training set,Balanced,744,186,558,186,0,0,1,0.3411
+Random Forest,Test set,Balanced,744,186,2382,33,29,235,0.8632,0.3411
+k-NN,Training set,Balanced,744,186,517,115,71,41,0.9148,0.0555
+k-NN,Test set,Balanced,744,186,2311,33,29,306,0.8202,0.0555
+Naive Bayes,Training set,Balanced,744,186,504,86,100,54,0.8509,0.0057
+Naive Bayes,Test set,Balanced,744,186,2318,30,32,299,0.824,0.0057
+SVM,Training set,Balanced,744,186,528,95,91,30,0.896,0.1611
+SVM,Test set,Balanced,744,186,2422,32,30,195,0.8474,0.1611
+XGBoost,Training set,Balanced,744,186,186,558,0,0,1,0.108
+XGBoost,Test set,Balanced,744,186,40,2313,304,22,0.8381,0.108
+LDA,Training set,Balanced,744,186,522,70,116,36,0.8341,0.0059
+LDA,Test set,Balanced,744,186,2438,31,31,179,0.8677,0.0059
+Logistic Regression,Training set,Balanced,744,186,529,57,129,29,0.8315,0.0109
+Logistic Regression,Test set,Balanced,744,186,2473,27,35,144,0.8588,0.0109
+Decision Tree,Training set,Balanced,744,186,558,186,0,0,1,0.0121
+Decision Tree,Test set,Balanced,744,186,2148,28,34,469,0.6362,0.0121
+Random Forest,Training set,Balanced,744,186,558,186,0,0,1,0.351
+Random Forest,Test set,Balanced,744,186,2451,37,25,166,0.8897,0.351
+k-NN,Training set,Balanced,744,186,519,108,78,39,0.9084,0.0576
+k-NN,Test set,Balanced,744,186,2354,31,31,263,0.846,0.0576
+Naive Bayes,Training set,Balanced,744,186,491,102,84,67,0.8264,0.0056
+Naive Bayes,Test set,Balanced,744,186,2265,43,19,352,0.8437,0.0056
+SVM,Training set,Balanced,744,186,540,70,116,18,0.873,0.153
+SVM,Test set,Balanced,744,186,2500,28,34,117,0.8504,0.153
+XGBoost,Training set,Balanced,744,186,186,558,0,0,1,0.111
+XGBoost,Test set,Balanced,744,186,38,2336,281,24,0.8622,0.111
+LDA,Training set,Balanced,744,186,518,81,105,40,0.8501,0.0058
+LDA,Test set,Balanced,744,186,2435,19,43,182,0.7963,0.0058
+Logistic Regression,Training set,Balanced,744,186,526,71,115,32,0.8484,0.0104
+Logistic Regression,Test set,Balanced,744,186,2452,14,48,165,0.7955,0.0104
+Decision Tree,Training set,Balanced,744,186,558,186,0,0,1,0.0114
+Decision Tree,Test set,Balanced,744,186,2235,24,38,382,0.6206,0.0114
+Random Forest,Training set,Balanced,744,186,558,186,0,0,1,0.476
+Random Forest,Test set,Balanced,744,186,2428,26,36,189,0.7971,0.476
+k-NN,Training set,Balanced,744,186,521,111,75,37,0.9127,0.0901
+k-NN,Test set,Balanced,744,186,2371,17,45,246,0.727,0.0901
+Naive Bayes,Training set,Balanced,744,186,480,92,94,78,0.8265,0.0075
+Naive Bayes,Test set,Balanced,744,186,2290,22,40,327,0.771,0.0075
+SVM,Training set,Balanced,744,186,535,85,101,23,0.8835,0.2556
+SVM,Test set,Balanced,744,186,2477,15,47,140,0.7947,0.2556
+XGBoost,Training set,Balanced,744,186,186,558,0,0,1,0.1417
+XGBoost,Test set,Balanced,744,186,31,2385,232,31,0.7915,0.1417
+LDA,Training set,Balanced,744,186,528,77,109,30,0.8478,0.0058
+LDA,Test set,Balanced,744,186,2422,21,41,195,0.8507,0.0058
+Logistic Regression,Training set,Balanced,744,186,531,72,114,27,0.8443,0.0109
+Logistic Regression,Test set,Balanced,744,186,2445,20,42,172,0.8466,0.0109
+Decision Tree,Training set,Balanced,744,186,558,186,0,0,1,0.0113
+Decision Tree,Test set,Balanced,744,186,2185,29,33,432,0.6513,0.0113
+Random Forest,Training set,Balanced,744,186,558,186,0,0,1,0.3681
+Random Forest,Test set,Balanced,744,186,2417,29,33,200,0.8703,0.3681
+k-NN,Training set,Balanced,744,186,536,113,73,22,0.9228,0.0543
+k-NN,Test set,Balanced,744,186,2337,31,31,280,0.8079,0.0543
+Naive Bayes,Training set,Balanced,744,186,498,98,88,60,0.8213,0.0056
+Naive Bayes,Test set,Balanced,744,186,2302,32,30,315,0.8388,0.0056
+SVM,Training set,Balanced,744,186,539,86,100,19,0.8918,0.1553
+SVM,Test set,Balanced,744,186,2439,24,38,178,0.8502,0.1553
+XGBoost,Training set,Balanced,744,186,186,558,0,0,1,0.116
+XGBoost,Test set,Balanced,744,186,36,2373,244,26,0.8461,0.116
