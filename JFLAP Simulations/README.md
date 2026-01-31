@@ -16,7 +16,7 @@ The repository includes two main `.jff` files:
    **Logic**: Outputs are determined by the state itself rather than the transition.
    **Structure**: Utilizes a more detailed state network (Q0 to Q78) to handle the sequential nature of Morse signals and map them to specific output states.
 
-## How to Use
+## 🛠 How to Use
 
 To view or simulate these automata:
 1. Download the **JFLAP** executable from [jflap.org](http://www.jflap.org/).
@@ -24,7 +24,7 @@ To view or simulate these automata:
 3. Select either the Mealy or Moore `.jff` file.
 4. To test inputs, navigate to `Input` -> `Step with State` and enter a Morse sequence (e.g., `.-s` for 'A').
 
-## Technical Specifications
+## ℹ️ Technical Specifications
 * **Input Alphabet**: 
     * `.` : Dot
     * `-` : Dash
