@@ -12,29 +12,20 @@ Before running the application, ensure you have the following installed:
 
 ## 🛠 Setup and Installation
 ### 1. Database Configuration (XAMPP)
-The application requires a MySQL database to function. Follow these steps:
 
-Open the XAMPP Control Panel and start the Apache and MySQL modules.
-
-Open your browser and navigate to: http://localhost/phpmyadmin/.
-
-Click on "New" in the left sidebar to create a new database.
-
-In the Database name field, enter budgetbuddy and click Create.
-
-Select the newly created budgetbuddy database and click on the "Import" tab at the top.
-
-Click "Choose File" and locate the budgetbuddy.sql file (found inside the project folder).
-
-Scroll to the bottom of the page and click "Import" to finalize the database setup.
+1. The application requires a MySQL database to function. Follow these steps:
+2. Open the XAMPP Control Panel and start the Apache and MySQL modules.
+3. Open your browser and navigate to: http://localhost/phpmyadmin/.
+4. Click on "New" in the left sidebar to create a new database.
+5. In the Database name field, enter budgetbuddy and click Create.
+6. Select the newly created budgetbuddy database and click on the "Import" tab at the top.
+7. Click "Choose File" and locate the budgetbuddy.sql file (found inside the project folder).
+8. Scroll to the bottom of the page and click "Import" to finalize the database setup.
 
 ### 2. Running the Application
 Once the database is ready, you can launch the app:
 
-Download the "BUDGET BUDDY.zip" file from the repository.
-
-Unzip the folder to your preferred location.
-
-Open the folder and locate the run.bat file (Windows Batch File).
-
-Double-click run.bat to start the application.
+1. Download the "BUDGET BUDDY.zip" file from the repository.
+2. Unzip the folder to your preferred location.
+3. Open the folder and locate the run.bat file (Windows Batch File).
+4. Double-click run.bat to start the application.
