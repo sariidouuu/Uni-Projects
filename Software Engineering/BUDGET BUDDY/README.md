@@ -29,3 +29,7 @@ Once the database is ready, you can launch the app:
 2. Unzip the folder to your preferred location.
 3. Open the folder and locate the run.bat file (Windows Batch File).
 4. Double-click run.bat to start the application.
+
+### ℹ️ Technical Note
+The application is distributed as a **.jar** file, ensuring it can run immediately without requiring a development environment (IDE). 
+Looking for the source code? 
