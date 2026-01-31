@@ -1,10 +1,10 @@
-Budget Buddy
+#Budget Buddy
 Budget Buddy is a Software Engineering project developed for the "Software Engineering" course. The application is designed to help users manage their finances and team expenses efficiently. It is provided as a compressed .jar file, allowing it to run without the need for an IDE.
 
-🚀 Getting Started
+##🚀 Getting Started
 Follow these instructions to get the project up and running on your local machine.
 
-Prerequisites
+*Prerequisites*
 Before running the application, ensure you have the following installed:
 
 Java Runtime Environment (JRE)
