@@ -39,4 +39,5 @@ Once the database is ready, you can launch the app:
 
 ### ℹ️ Technical Note
 The application is distributed as a **.jar** file, ensuring it can run immediately without requiring a development environment (IDE). 
+
 What? Looking for the source code? 
