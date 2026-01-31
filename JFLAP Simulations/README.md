@@ -2,7 +2,7 @@
 
 This repository contains the design and simulation of two **Deterministic Finite Automata (DFA)** created to decode Morse code into Latin characters. The projects were developed using the **JFLAP** tool.
 
-## Project Files
+## 🚀 Project Files
 
 The repository includes two main `.jff` files:
 
