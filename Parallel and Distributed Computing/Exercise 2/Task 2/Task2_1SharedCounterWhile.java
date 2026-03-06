@@ -47,7 +47,10 @@ public class Task2_1SharedCounterWhile {
 
         public void run() {
             while (true) {
-				if (counter >= end) break;
+				if (counter >= end) break;       // SSSSSSSSOOOOOOOOSSSSSSSS
+				// Αν το Lock είναι εκτός του if τυπώνει τα εξής στο terminal.. ArrayIndexOutOfBoundsException
+				// Πρέπει ο έλεγχος της μεταβλητής counter να γίνεται μέσα στο synchronized block, 
+				// ώστε κανένα άλλο νήμα να μην μπορεί να την αλλάξει ανάμεσα στον έλεγχο και τη χρήση της.
 
 				lock.lock();
 				try{
@@ -60,3 +63,4 @@ public class Task2_1SharedCounterWhile {
 		}            	
     }
 }
+
