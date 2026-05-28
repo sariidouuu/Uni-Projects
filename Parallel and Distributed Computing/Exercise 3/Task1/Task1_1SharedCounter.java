@@ -7,7 +7,7 @@ public class Task1_1SharedCounter {
     static int[] array = new int[end];
     static int numThreads = 4;
 
-	static Lock lock = new ReentrantLock();
+	//static Lock lock = new ReentrantLock();
 
 	static Object lockObj = new Object(); // Ένα κοινό lock object για όλα τα νήματα
 
