@@ -11,13 +11,13 @@ public class Task1_2Main_SharedCounter {
 		int numThreads = 4;
 
 		CounterThread threads[] = new CounterThread[numThreads];
-		Lock lock = new ReentrantLock();
+		//Lock lock = new ReentrantLock();
 
 		Object lockObj = new Object(); // Ένα κοινό lock object για όλα τα νήματα
 		
 		for (int i = 0; i < numThreads; i++) {
 			// Στέλνω σαν όρισμα στη CounterThread το lockObj
-			threads[i] = new CounterThread(end, array, lock, lockObj);
+			threads[i] = new CounterThread(end, array, lockObj);
 			threads[i].start();
 		}
 	
@@ -49,7 +49,7 @@ public class Task1_2Main_SharedCounter {
 		Object lock;
 
 
-        public CounterThread(int end, int[] array, Lock lock, Object lockObj) {
+        public CounterThread(int end, int[] array,  Object lockObj) {
 			this.end = end;
 			this.array = array;
 			this.lock=lockObj;
