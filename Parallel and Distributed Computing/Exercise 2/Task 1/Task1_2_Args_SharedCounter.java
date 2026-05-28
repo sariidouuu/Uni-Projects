@@ -28,7 +28,8 @@ public class Task1_2_Args_SharedCounter {
 		check_array(sharedData, numThreads);
     }
 	
-	//Κρατάμε την μέθοδο check_array μέσα στην κλάση Task1_2_Args_SharedCounterArrayGlobal ώστε να μπορούμε να την καλέσουμε απευθείας
+	// Κρατάμε την μέθοδο check_array μέσα στην κλάση Task1_2_Args_SharedCounterArrayGlobal ώστε να μπορούμε να την καλέσουμε απευθείας
+	// Και να μη χρειαστεί να την κάνουμε κλάση και να δημιουργήσουμε αντικείμενό της
 	static void check_array(SharedData sharedData, int numThreads)  {
 		int i, errors = 0;
 
