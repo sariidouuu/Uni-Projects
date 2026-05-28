@@ -13,6 +13,9 @@ public class Task2_2Main_SharedCounter {
 		CounterThread threads[] = new CounterThread[numThreads];
 		// Δημιουργώ τη lock στην Main ώστε αν την περάσω ως όρισμα στην CounterThread
 		// Περνάω αναφορά, ώστε κάθε νήμα να λαμβάνει μια αναφορά στο κλείδωμα που πρέπει να χρησιμοποιήσει.
+
+		// Η lock που στέλνεις ως όρισμα είναι ΕΝΑ και ΜΟΝΑΔΙΚΟ αντικείμενο (instance) το οποίο μοιράζονται όλα τα νήματα.
+		// Το περνάω ως όρισμα αναφοράς, και όχι όρισμα τιμής
 		Lock lock = new ReentrantLock();
 		
 		for (int i = 0; i < numThreads; i++) {
